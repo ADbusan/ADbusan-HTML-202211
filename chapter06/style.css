@@ -1,0 +1,47 @@
+div{
+    width: 500px;
+    height: 300px;
+}
+b{
+    width: 1000px;
+    height: 500px;
+}
+.box1{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+.box2{
+    box-sizing: border-box;
+    border: 1px solid aqua;
+    padding: 10px;
+    width: 200px;
+    height: 200px;  
+    background-color: aqua;
+}
+.box1, .box2{
+    color: mintcream;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    /*  t->r->b->l 값이 없으면 대칭해서 값이 들어감 위아래로는 auto가 없음 좌우만있음 auto
+        쓰면 중앙으로 자동으로 잡아줌*/
+    /* 마진과 마진사이는 중첩이된다 위아래O,양옆은 중첩X  마진만 중첩 다른거는 중첩 X*/
+    margin: 5px auto 25px;
+    border-right: 5px solid black;
+    border-left: 5px solid red;
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+}
+.side{
+    width: 100px;
+    height: 100%;
+    /* %부모에따라 달라짐 */
+    background-color: aliceblue;
+    box-shadow: 10px -5px 20px 1px black;
+}

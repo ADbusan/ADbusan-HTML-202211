@@ -1,0 +1,30 @@
+.text2{ 
+    font-family: 'Gaegu', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(rgb(182, 19, 19), rgb(63, 170, 63), blue);
+    /* color: rgba(red, green, blue, alpha); 투명도 */
+    color: #661313;
+    /* color: #9F3131FF; 6자리 이후 FF 투명도 */
+}
+.text1{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 45px;
+    font-style: italic;
+    line-height: 45px;
+}
+.j{
+    font-family: 'ClimateCrisisKR-1979';
+    color: blueviolet;
+    font-size: 25px;
+}
+.naver-link{
+    font-size: 30px;
+    color:rgb(25, 206, 96);
+    text-decoration: none;/*밑줄 없애는 코드*/
+    text-shadow: 7px -7px 10px #000;/*(x,y,선명도,색)4사분면*/
+}
+.spacing{
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
