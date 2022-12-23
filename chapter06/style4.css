@@ -1,0 +1,29 @@
+.box1{
+    position: relative;
+    border: 1px solid black;
+    
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    margin: 100px auto;
+}
+.box2{
+    position: absolute;
+    border: 1px solid white;
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* 기준점 자체를 x축 거리와 y축 거리만큼 요소를 이동시킵니다. */
+    /* transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    font-size: 14px; */
+}
+/* #box2:hover{ 
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    font-size: 36px;} */

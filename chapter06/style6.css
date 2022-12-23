@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.profile-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.profile-img{
+
+    width: 110%;
+  
+}
