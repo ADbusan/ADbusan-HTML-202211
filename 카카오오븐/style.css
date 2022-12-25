@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.j1{
+    background-color: #383d40;
+}
+.profile-img-box{
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top : 10px;
+}
+.j2{
+    display: inline-block;
+    margin-top: -10px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    vertical-align: middle;
+}
+.j3{
+    display: inline-block;
+    padding: 1px 3px;
+    margin-left: -5px;
+    margin-top: -15px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #aaa;
+    line-height: 12px;
+    vertical-align: middle;
+}
+.j4{
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 50px;
+}
+.toggle{
+    float: right;
+    margin: 0;
+}
+label{
+    background-image: none;
+}
+.j5{
+    font-size: 1px;
+}
+.full-left{
+    float: left!important;
+    font-size: 36px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pull-right{
+    float: right!important;
+    margin-top: 80px;
+    padding-right: 70px;
+}
+.jh{
+    display: inline-block;
+}
