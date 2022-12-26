@@ -62,7 +62,8 @@ footer{
     color: blue;
 }
 .jh{
-    display: inline-block;  
+    display: inline-block; 
+    
 }
 .jh3{
     background-color: blue;
@@ -112,6 +113,7 @@ h1{
 }
 .q11{
     display: block;
+    display: inline;
 }
 .q12{
     color: blue;
@@ -120,4 +122,7 @@ h1{
 .q13{
     display: inline-block;
     
+}
+.q14{
+    background-color: green;
 }
