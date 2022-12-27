@@ -18,7 +18,10 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 14px;
+    padding: 20px;
+}
+.left{
+    font-size: 18px;
 }
 .left1{
     padding-left: 15px;
@@ -31,24 +34,24 @@ header{
 }
 .right{
     display: flex;
-
+    font-size: 18px;
 }
 .center1{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 50px;
 }
-main{
-    color: white;
-}
+
 .text2{
     position: relative;
-    width: 300px;
+    width: 400px;
 }
 .text1{
     width: 100%;
     border: 1px solid #bbb;
     border-radius: 30px;
-    padding: 10px 12px;
+    padding: 10px 90px;
     font-size: 14px;
 }
 .text2 .fa-magnifying-glass{
@@ -58,4 +61,16 @@ main{
     right: 12px;
     margin: 0;
 }
-.text3{}
+.text3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+span:nth-of-type(1){color: #4284f3;}
+span:nth-of-type(2){color: #ea4335;}
+span:nth-of-type(3){color: #fabc05;}
+span:nth-of-type(4){color: #4284f3;}
+span:nth-of-type(5){color: #44a852;}
+span:nth-of-type(6){color: #ea4335;}
+
