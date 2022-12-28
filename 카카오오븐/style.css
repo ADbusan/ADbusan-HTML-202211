@@ -1,4 +1,4 @@
-*{
+ *{
     box-sizing: border-box;
     font-size: 14px;
 }
@@ -298,17 +298,14 @@ footer{
     align-items: center;
     width: 100%;
     padding: 20px 0 25px 0;
-
     border-top: 1px solid #ddd ;
 }
-
 .a1{
     color: #3498db;;
 }
 .a2{
     color: #3498db;
-    font-weight: 600;
-  
+    font-weight: 600;  
 }
 small{
     font-size: 12px;

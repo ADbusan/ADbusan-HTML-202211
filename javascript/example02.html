@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 자료형
+        // number, string, boolean
+        var num = 1000;
+        console.log(num);
+        console.log(typeof(num))
+        var str = 'string';
+        console.log(str);
+        console.log(typeof(str))
+        var bool = true;
+        console.log(bool);
+        console.log(typeof(bool))
+        // array, object
+        var arr = [0, 2, 3 ,4 ,5]
+        console.log(arr);
+        console.log(typeof(arr))
+
+        var obj = {
+            'name': '홍길동',
+            'age' : 20
+        }
+        console.log(obj);
+        console.log(typeof(obj));
+        // undefined, null
+        // console.log(cat);
+        // console.log(typeof(cat));
+        var dog;
+        console.log(dog)
+        console.log(typeof(dog));
+        var bird = null;
+        console.log(bird);
+        console.log(typeof(bird));
+        // 산술연산
+        var a = 10;
+        var b = 3;
+        console.log(a+b);
+        console.log(a-b);
+        console.log(a*b);
+        console.log(a/b);
+        console.log(a%b);
+        console.log(++a);
+        console.log(a++);
+        console.log(--a);
+        console.log(a--);
+        
+        // 대입연산
+        var c =  5;
+        console.log(c = 5);
+        console.log(c += 5);
+        console.log(c -= 5);
+        console.log(c *= 5);
+        console.log(c /= 5);
+        console.log(c %= 5);
+        console.log(c);
+        
+
+        var arr = [-10, 5, 100, -20, 40];
+
+        function compareValue(value) {
+
+    return value < 10;  
+
+}
+
+    document.write(compareValue)
+
+
+
+
+        // 배열안에 마이너스값을 양수로 전환 해주는 명령어 arr.map(Math.abs)
+        // var arr= [1, -2, 3, -4 ];
+        // var absoluteValues =arr.map(Math.abs);
+        // document.write(absoluteValues);
+
+        // screen 사용법
+        // document.write("현재 사용자의 디스플레이 화면의 너비는 " + screen.width + "픽셀입니다.<br>");
+		// document.write("현재 사용자의 디스플레이 화면의 높이는 " + screen.height + "픽셀입니다.<br>");
+		// document.write("현재 브라우저 창의 너비는 " + window.outerWidth + "픽셀입니다.<br>");
+		// document.write("현재 브라우저 창의 높이는 " + window.outerHeight + "픽셀입니다.<br>");
+    </script>
+</body>
+</html>
