@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/common.js"></script>
+    <script>
+        // funtion1
+        function func1(){
+            alert('func1 - 배고프다.');
+        }
+        // func1();
+        // funtion2
+        // left, const
+        const func2 = () => {
+            alert('func2 - 배고프다.1');
+        }
+        func2();
+        // const onClickHandler = document.querySelector('#btn1');
+        // onClickHandler.onClick = func1;
+        // var btn1 = document.getElementById("btn1");
+        // btn1.addEventListener("click", clickBtn);
+        // function clickBtn(){
+        //     document.getElementById("text").innerHTML = "버튼 클릭" 
+        // }
+    </script>
+</head>
+<body>  
+    <button id="btn1" >btn1</button>
+    <input  style="width: 100px;" />
+    <button onclick="helloworld()">helloworld</button>
+    <button onclick="moveExample01()">move2</button>
+    <script>
+        // const onClickHandler = document.querySelector('#btn1');
+        // onClickHandler.onClick = func1;
+        document.querySelector('#btn1').onclick = func2;
+    </script>
+        <!-- // function a() {
+        //     console.log(number);
+        //     var number = 10;
+        // }-->
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <label for="menu" class="menu">메뉴</label>
+    <input type="checkbox" id="menu">
+    <nav id="main-nav">
+        <ul>
+            <li><a href="#">html</a></li>
+            <li><a href="#">css</a></li>
+            <li><a href="#">java</a></li>
+            <li><a href="#">query</a></li>
+        </ul>
+    </nav>
+    <button onclick="openDocument()">남자 쇼핑몰 1</button>
+    <button onclick="openDocument()">남자 쇼핑몰 2</button>
+    <!-- <button onclick="openDocumentWithReplace()">이전 문서 삭제 후 새로운 문서 열기</button> -->
+    <script>
+        function goBack() {
+            window.location.back();
+        }
+        function openDocument() {
+            location.assign("https://www.naver.com/");
+        }
+        // function openDocumentWithReplace() {
+        //     location.replace("https://www.google.com/webhp?hl=ko&ictx=2&sa=X&ved=0ahUKEwij5s3y4p38AhXjk1YBHZbJBNoQPQgI");
+        // }
+    </script>
+</body>
+
+</html>
