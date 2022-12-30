@@ -11,3 +11,8 @@ nav#main-nav{
 input#menu:checked + nav#main-nav{
     display: block;
 }
+/* body{
+    display: flex;
+    flex-direction: column;
+    column 	아이템들을 열방향 (세로방향) 위쪽부터 정렬합니다
+} */
