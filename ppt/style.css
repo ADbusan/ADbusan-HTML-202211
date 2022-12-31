@@ -1,0 +1,98 @@
+body{
+    background: url(../images.png);
+}
+header{
+    display: flex;
+    justify-content: center;
+ 
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+ul{
+    background-color: darkgrey;
+}
+h1{
+    padding-top: 20px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+}
+
+label.menu{
+    border: 1px solid black;
+    padding: 4px;
+    width: 200px;
+    height: 50px;
+}
+input#menu{
+    display: none;
+}
+nav#main-nav{
+    display: none;
+}
+input#menu:checked + nav#main-nav{
+    display: block;
+}
+label.menu1{
+    border: 1px solid black;
+    padding: 4px;
+    width: 200px;
+    height: 50px;
+}
+input#menu1{
+    display: none;
+}
+nav#main-nav1{
+    display: none;
+}
+input#menu1:checked + nav#main-nav1{
+    display: block;
+}
+label.menu2{
+    border: 1px solid black;
+    padding: 4px;
+    width: 200px;
+    height: 50px;
+}
+input#menu2{
+    display: none;
+}
+nav#main-nav2{
+    display: none;
+}
+input#menu2:checked + nav#main-nav2{
+    display: block;
+}
+label.menu3{
+    background-color: darkgray;
+    width: 250px;
+    height: 100px;
+    padding: 4px;
+    border: 1px solid black;
+}
+input#menu3{
+    display: none;
+}
+nav#main-nav3{
+    display: none;
+}
+input#menu3:checked + nav#main-nav3{
+    display: block;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: darkgray;
+}
+h5{
+    padding-top: 8px;
+}
+.main-nav4{
+    margin-bottom: 0;
+}
