@@ -1,10 +1,10 @@
 body{
-    background: url(../images.png);
+    background: url(../books.jpg);
+    background-size: cover;
 }
 header{
     display: flex;
     justify-content: center;
- 
 }
 main{
     display: flex;
@@ -21,7 +21,6 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-
 label.menu{
     border: 1px solid black;
     padding: 4px;
@@ -90,9 +89,53 @@ label{
     text-align: center;
     background-color: darkgray;
 }
+input#menu4{
+    display: none;
+}
+nav#main-nav4{
+    display: none;
+}
+input#menu4:checked + nav#main-nav4{
+    display: block;
+}
+label.menu4{
+    border: 1px solid black;
+    padding: 4px;
+    width: 200px;
+    height: 50px;
+}
+label.menu5{
+    background-color: darkgray;
+    width: 100px;
+    height: 50px;
+    padding: 4px;
+    border: 1px solid black;
+}
+input#menu5{
+    display: none;
+}
+nav#main-nav5{
+    display: none;
+}
+input#menu5:checked + nav#main-nav5{
+    display: block;
+}
 h5{
     padding-top: 8px;
 }
 .main-nav4{
     margin-bottom: 0;
 }
+.important{
+    color: aqua;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    font-size: 25px;
+}
+.mainbook1{
+    position: absolute;
+    right: 0;
+}
+
