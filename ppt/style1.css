@@ -1,6 +1,7 @@
 body{
-    background: url(../books.jpg);
-    background-size: auto;
+    background: url(../books.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
 }
 body{
     margin: 0;
