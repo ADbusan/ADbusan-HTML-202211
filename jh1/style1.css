@@ -3,11 +3,16 @@ label.menu{
     padding: 4px;
 }
 input#menu{
+
     display: none;
 }
 nav#main-nav{
     display: none;
+   
+
 }
 input#menu:checked + nav#main-nav{
     display: block;
+   
+
 }
