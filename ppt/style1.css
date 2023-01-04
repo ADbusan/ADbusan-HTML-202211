@@ -1,7 +1,13 @@
 body{
+<<<<<<< HEAD
+    background: url(../books.jpg);
+    background-size: cover;
+
+=======
     background: url(../books.jpg) no-repeat center;
     background-size: cover;
     height: 100vh;
+>>>>>>> c80b0e1ef2baf9fe9e2bd04ef6cf8ba7e515c844
 }
 body{
     margin: 0;
@@ -88,7 +94,7 @@ input#menu5:checked + nav#main-nav5{
 main{
     display: flex;
     justify-content: space-between;
-   padding-top: 150px;
+    padding-top: 150px;
 }
 h5{
     padding-top: 8px;
