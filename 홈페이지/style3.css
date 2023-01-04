@@ -263,3 +263,55 @@ input[id=menuicon]:checked+label+div{
     margin: 0;
     padding: 20px;
 }
+
+
+
+label.menu{
+    border: 1px solid black;
+    padding: 4px;
+}
+input#menu{
+    display: none;
+}
+nav#main-nav{
+    display: none;
+}
+input#menu:checked + nav#main-nav{
+    display: block;
+}
+
+label.menu-1{
+    border: 1px solid black;
+    padding: 4px;
+}
+input#menu-1{
+    display: none;
+}
+nav#main-nav-1{
+    display: none;
+}
+input#menu-1:checked + nav#main-nav-1{
+    display: block;
+}
+
+label.menu-2{
+    border: 1px solid black;
+    padding: 4px;
+}
+input#menu-2{
+    display: none;
+}
+nav#main-nav-2{
+    display: none;
+}
+input#menu-2:checked + nav#main-nav-2{
+    display: block;
+}
+
+.sidebar-2{
+    padding: 10px;
+}
+.slider{
+    background-color: #000000;
+
+}

@@ -45,13 +45,3 @@ body{
 .menu-item:hover .menu-sub{
     opacity: 1;
 }
-tr{
-    display: flex;
-    border: 1px solid black;
-}
-td{
-    border: 1px solid black;
-}
-table{
-    display: flex;
-}
