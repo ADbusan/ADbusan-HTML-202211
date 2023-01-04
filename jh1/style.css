@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+}
+.nav-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+}
+summary{
+    display: flex;
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
